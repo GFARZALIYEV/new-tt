@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres
+    container_name: vacancy-ms
+    environment:
+      POSTGRES_USER: my_user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: vacancy-db
+    ports:
+      - "5436:5432"
+    volumes:
+      - yenidb_1:/var/lib/postgresql/data
+    networks:
+      my_network_1:
+
+
+networks:
+  my_network_1:
+
+volumes:
+  yenidb_1:

@@ -1,0 +1,6 @@
+rootProject.name = 'stp-vacancy'
+include 'user-ms'
+include 'vacancy-ms'
+include 'common-security'
+include 'login-ms'
+

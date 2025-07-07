@@ -1,0 +1,18 @@
+# IntelliJ, Eclipse, VSCode və digər IDE faylları
+*.iml
+/.idea/
+/.vscode/
+
+# Gradle build qovluqları
+/build/
+/out/
+
+# .env faylı - gizli məlumatlar üçün
+.env
+
+# Log faylları
+*.log
+
+# OS faylları
+.DS_Store
+Thumbs.db
